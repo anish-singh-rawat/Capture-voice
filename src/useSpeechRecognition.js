@@ -29,7 +29,7 @@ export const useSpeechRecognition = (setInputText) => {
         
         // recognitionRef.current.lang = 'hi-IN'; // Hindi (India)
         // recognitionRef.current.lang = 'en-US'; // English (US)
-         recognitionRef.current.lang = 'en-IN';
+        recognitionRef.current.lang = 'en-IN';
 
         recognitionRef.current.onresult = (event) => {
           let interimTranscript = '';
